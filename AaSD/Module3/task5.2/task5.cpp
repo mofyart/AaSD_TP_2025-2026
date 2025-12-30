@@ -225,7 +225,7 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
 
     std::cout << "Среднее значение и среднее квдартичное отклонение коэффициента апроксимации" << '\n';
 
-    for (size_t countVertexes = 5; countVertexes < 11; ++countVertexes) {
+    for (size_t countVertexes = 2; countVertexes < 11; ++countVertexes) {
         std::vector<double> coefficientsAproximation = FindCoefficientsAproximation(countVertexes, K, gen, dist);
 
         double averageResult, averageQuadricResult;
